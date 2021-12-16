@@ -12,7 +12,7 @@ The target Queue Messaging system will be [Azure Service Bus Integration](https:
 
 # System Architecture #
 ## General Architecture ##
-This is the general architecture for the system.<br>
+This is the general architecture for the system. There is a diagram made with [DrawIO](https://www.diagrams.net/) [here](https://github.com/DiSBu/AzureServiceBus/blob/main/Documents/Architecture.drawio)<br>
 
 ![image](https://user-images.githubusercontent.com/36702379/146432870-745b7871-b2a4-4a60-90ca-4a5f5051c164.png)
 
