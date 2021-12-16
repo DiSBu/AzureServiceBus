@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumerService", "ConsumerService.csproj", "{DE3BA8A5-8635-40C7-AA75-DCB0BFFECEE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.AzureServiceBus", "..\Common\Common.AzureServiceBus\Common.AzureServiceBus.csproj", "{1DA2DE81-160C-427A-B69C-35FDE0B1FC8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Logger", "..\Common\Common.Logger\Common.Logger.csproj", "{E095A598-B1CC-4264-8EC4-EE0CC4640BD5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Model", "..\Common\Common.Model\Common.Model.csproj", "{C6B5725D-B52B-4296-A71C-4A2C47A0C094}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Repository", "..\Common\Common.Repository\Common.Repository.csproj", "{FFF76409-36CF-4259-8A5F-40B1F1C48518}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.ApiService", "..\Common\Common.ApiService\Common.ApiService.csproj", "{14E635DE-B9EA-440A-96C9-42DBD5E3474F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		azr-poc|Any CPU = azr-poc|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE3BA8A5-8635-40C7-AA75-DCB0BFFECEE3}.azr-poc|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3BA8A5-8635-40C7-AA75-DCB0BFFECEE3}.azr-poc|Any CPU.Build.0 = Debug|Any CPU
+		{DE3BA8A5-8635-40C7-AA75-DCB0BFFECEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3BA8A5-8635-40C7-AA75-DCB0BFFECEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3BA8A5-8635-40C7-AA75-DCB0BFFECEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3BA8A5-8635-40C7-AA75-DCB0BFFECEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DA2DE81-160C-427A-B69C-35FDE0B1FC8B}.azr-poc|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DA2DE81-160C-427A-B69C-35FDE0B1FC8B}.azr-poc|Any CPU.Build.0 = Debug|Any CPU
+		{1DA2DE81-160C-427A-B69C-35FDE0B1FC8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DA2DE81-160C-427A-B69C-35FDE0B1FC8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DA2DE81-160C-427A-B69C-35FDE0B1FC8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DA2DE81-160C-427A-B69C-35FDE0B1FC8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E095A598-B1CC-4264-8EC4-EE0CC4640BD5}.azr-poc|Any CPU.ActiveCfg = Debug|Any CPU
+		{E095A598-B1CC-4264-8EC4-EE0CC4640BD5}.azr-poc|Any CPU.Build.0 = Debug|Any CPU
+		{E095A598-B1CC-4264-8EC4-EE0CC4640BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E095A598-B1CC-4264-8EC4-EE0CC4640BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E095A598-B1CC-4264-8EC4-EE0CC4640BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E095A598-B1CC-4264-8EC4-EE0CC4640BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6B5725D-B52B-4296-A71C-4A2C47A0C094}.azr-poc|Any CPU.ActiveCfg = azr-poc|Any CPU
+		{C6B5725D-B52B-4296-A71C-4A2C47A0C094}.azr-poc|Any CPU.Build.0 = azr-poc|Any CPU
+		{C6B5725D-B52B-4296-A71C-4A2C47A0C094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B5725D-B52B-4296-A71C-4A2C47A0C094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B5725D-B52B-4296-A71C-4A2C47A0C094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B5725D-B52B-4296-A71C-4A2C47A0C094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF76409-36CF-4259-8A5F-40B1F1C48518}.azr-poc|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF76409-36CF-4259-8A5F-40B1F1C48518}.azr-poc|Any CPU.Build.0 = Debug|Any CPU
+		{FFF76409-36CF-4259-8A5F-40B1F1C48518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF76409-36CF-4259-8A5F-40B1F1C48518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF76409-36CF-4259-8A5F-40B1F1C48518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF76409-36CF-4259-8A5F-40B1F1C48518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14E635DE-B9EA-440A-96C9-42DBD5E3474F}.azr-poc|Any CPU.ActiveCfg = azr-poc|Any CPU
+		{14E635DE-B9EA-440A-96C9-42DBD5E3474F}.azr-poc|Any CPU.Build.0 = azr-poc|Any CPU
+		{14E635DE-B9EA-440A-96C9-42DBD5E3474F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E635DE-B9EA-440A-96C9-42DBD5E3474F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E635DE-B9EA-440A-96C9-42DBD5E3474F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E635DE-B9EA-440A-96C9-42DBD5E3474F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F246D11B-469B-47D3-89A2-4B730385BEA9}
+	EndGlobalSection
+EndGlobal

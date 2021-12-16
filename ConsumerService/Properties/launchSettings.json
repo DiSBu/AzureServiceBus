@@ -1,0 +1,34 @@
+{
+  "profiles": {
+    "Local": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "RUNTIME_ENVIRONMENT": "Development"
+      }
+    },
+    "Development": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "RUNTIME_ENVIRONMENT": "Development"
+      }
+    },
+    "QA": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "RUNTIME_ENVIRONMENT": "QA"
+      }
+    },
+    "UAT": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "RUNTIME_ENVIRONMENT": "UAT"
+      },
+      "PROD": {
+        "commandName": "Project",
+        "environmentVariables": {
+          "RUNTIME_ENVIRONMENT": "PROD"
+        }
+      }
+    }
+  }
+}
